@@ -20,7 +20,7 @@ APP_ID = int(os.environ.get("APP_ID", "22643938"))
 API_HASH = os.environ.get("API_HASH", "e91a7190a1032a40840cd45d705f2778")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002135283143"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "--1002041584817"))
 
 # NAMA OWNER
 OWNER = os.environ.get("OWNER", "0")
@@ -36,11 +36,11 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://awalnya:coba@cluster0.oow5ye3.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://kue:data@cluster0.brqjpng.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001952284084"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001876447160"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
